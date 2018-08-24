@@ -1,0 +1,30 @@
+<meta>
+    <info name="Property Editor" author="botder" version="1.0.0" type="script" description="A tool to edit the properties of any GUI element"/>
+    <file src="assets/alpha.png"/>
+    <file src="assets/blank.png"/>
+    <file src="assets/dot.png"/>
+    <file src="assets/hue.png"/>
+    <file src="assets/saturation.png"/>
+    <file src="assets/slider.png"/>
+    <file src="assets/value.png"/>
+    <script type="client" src="client/gui/selection.lua"/>
+    <script type="client" src="client/gui/editor.lua"/>
+    <script type="client" src="client/gui/element-tree.lua"/>
+    <script type="client" src="client/gui/component.lua"/>
+    <script type="client" src="client/gui/helpers/editable.lua"/>
+    <script type="client" src="client/gui/helpers/colorpicker.lua"/>
+    <script type="client" src="client/gui/helpers/vector.lua"/>
+    <script type="client" src="client/gui/components/boolean.lua"/>
+    <script type="client" src="client/gui/components/color.lua"/>
+    <script type="client" src="client/gui/components/colors.lua"/>
+    <script type="client" src="client/gui/components/string.lua"/>
+    <script type="client" src="client/gui/components/enum.lua"/>
+    <script type="client" src="client/gui/components/image.lua"/>
+    <script type="client" src="client/gui/components/vector2.lua"/>
+    <script type="client" src="client/gui/components/vector2x2.lua"/>
+    <script type="client" src="client/gui/components/vector2x4.lua"/>
+    <script type="client" src="client/extension.lua"/>
+    <script type="client" src="client/properties.lua"/>
+    <script type="client" src="client/main.lua"/>
+    <script type="server" src="server/main.lua"/>
+</meta>
